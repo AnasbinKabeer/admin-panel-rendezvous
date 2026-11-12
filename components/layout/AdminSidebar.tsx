@@ -27,7 +27,7 @@ const navigation = [
         title: "MANAGEMENT",
         items: [
             { name: "Notifications", href: "/notifications", icon: Bell },
-            { name: "Participants", href: "/participants", icon: Users },
+            { name: "Schedule", href: "/schedule", icon: Users },
             { name: "Programs", href: "/programs", icon: CalendarDays },
             { name: "Results", href: "/results", icon: Trophy },
         ],

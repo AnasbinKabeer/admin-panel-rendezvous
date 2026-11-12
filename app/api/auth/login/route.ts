@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        const backendUrl = process.env.BACKEND_API_URL;
+        const backendUrl = "https://slateblue-wasp-644886.hostingersite.com/api";
 
         if (!backendUrl) {
             throw new Error("BACKEND_API_URL is missing");
